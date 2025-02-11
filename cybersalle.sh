@@ -2,7 +2,7 @@
 
 # Fonction pour vérifier si docker est installé
 check_docker() {
-    if command -v docker &> /dev/null && docker --version &> /dev/null; then
+    if command -v docker; then
         return 0  # Docker est installé
     else
         return 1  # Docker n'est pas installé
