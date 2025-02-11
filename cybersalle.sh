@@ -88,6 +88,7 @@ sudo apt update && sudo apt install pipx
 # You can now install Exegol package from PyPI
 pipx install exegol
 pipx ensurepath
+source ~/.bashrc
 echo "alias exegol='sudo -E $(which exegol)'" >> ~/.bash_aliases
 source ~/.bashrc
 
