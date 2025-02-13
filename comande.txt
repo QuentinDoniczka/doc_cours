@@ -1,0 +1,5 @@
+git clone https://github.com/trustedsec/social-engineer-toolkit
+cd social-engineer-toolkit-master
+sudo apt install python3-pip
+pip3 install -r requirements.txt
+sudo python setup.py

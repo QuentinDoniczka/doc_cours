@@ -14,7 +14,6 @@ cd theHarvester
 sudo apt install python3-pip -y
 python3 -m pip install -r requirements/dev.txt
 Python3 -m pip install -r requirements.txt
-python3 theHarvester.py -h
 
 # installation de Reconftw
 echo "installation de Reconftw"
